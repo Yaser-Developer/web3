@@ -1,0 +1,191 @@
+*{
+    margin:  0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'yas'; src:url('00/fonts/ariblk.ttf')format('truetype'),
+        
+}
+@font-face{
+    font-family: 'noo';
+    src: url("../fonts/BRITANIC.TTF") format('truetype');
+}
+body{
+    font-family: yas;
+}
+
+.header{
+    height: 400px;
+    box-sizing: border-box;
+    background-image: url(../image/Jellyfish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+ 
+}
+.list { 
+    list-style-type:none;
+   
+    
+    
+}
+
+.item{
+    display: inline-block;
+    padding: 25px;
+    
+}
+.item a{
+     font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.item:hover{ background-color: orangered;
+    color: black;
+    border-radius: 15px;
+
+}
+h1 span{font-size:55px;
+    color: gold;
+}
+h1{
+  text-align: center;
+    font-size: 25px;
+    color: orangered;
+    margin-top: 40px;
+    background-color: rgba(0,0,0,.5);
+    display: inline-block;
+    border: 4px dashed black;
+    border-radius: 25px;
+    
+}
+h1:hover{
+    color: black;
+}
+span:hover{
+    color: black;
+}
+
+
+.desc{
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    width: 300px;
+    margin: auto;
+    border-radius:15px;
+    border: 2px solid yellow;
+    background-color: rgba(0,0,0,.7);
+    height: 50px;
+    line-height:50px;
+    margin-top: 100px;
+    
+}
+
+.members{
+    background-color: gray;
+    text-align: center;
+    padding: 50px 30px;
+    
+}
+.members h2{
+    display: inline-block;
+    font-size: 55px;
+    font-family:monospace;
+    border-right:20px solid red;
+      border-bottom:20px solid red;
+    border-radius:0 0 25px;
+    
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+
+
+
+}
+.member-item{
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    box-shadow: 0 0 15px red;
+    border: 1px solid red;
+    box-sizing: border-box;
+    
+}
+.member-pic{
+    width: 100%;
+}
+.member-name{
+    font-size: 50px;
+    font-family: cursive;
+    
+}
+.member-bio{
+    font-size: 30px;
+    padding: 20px;
+    text-align: justify;
+ 
+}
+
+
+.about{
+    background-image: url(../image/Lighthouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    text-align:center;
+    padding: 70px;
+
+    
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255,0,0,.4);
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 20px black;
+    
+}
+.circle h4{
+    padding-top: 70px;
+    font-family: fantasy;
+    font-size: 45px;
+}
+.circle p{
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 0 70px;
+    text-align: justify
+}
+
+.footer{
+    box-sizing: border-box;
+    height: 200px;
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.back-pic{
+    height: 65px;
+    background-color: gray;
+    border-radius: 25px;
+}
+img{
+    display: inline-block;
+    width: 3%;
+   
+}
+h5{
+    color: white;
+    margin-top: 7px;
+}
+    
