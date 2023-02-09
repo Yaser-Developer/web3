@@ -1,0 +1,20 @@
+*{
+    padding: 3px;
+}
+.f1{
+    width: 305px;
+    height: 500px;
+    background-color: yellow;
+    display:inline-block;
+    position: relative;
+    float: right;
+
+
+    
+}
+.f2{
+    width: 305px;
+      height: 500px;
+    display: inline-block;
+     background-color: orange;
+}
