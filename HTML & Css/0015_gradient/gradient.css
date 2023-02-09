@@ -1,0 +1,43 @@
+[class ^="box"]{
+     width: 700px;
+    height: 250px;
+    margin-bottom: 50px;
+    font-size: 50px;
+   
+}
+ 
+.box1{
+     background:linear-gradient(to right,deeppink,yellow,lime);
+}
+.box2{
+    background-image: linear-gradient(to right,deeppink 20%,yellow 20%,lime 40%)
+}
+.box3{
+    background-image: repeating-linear-gradient(18deg,deeppink 30%,yellow 40%,lime 50%)
+}
+
+.box4{
+    height: 250px;
+    background-image: radial-gradient(ellipse,deeppink,yellow,lime)
+}
+
+.box5{
+     height: 250px;
+    background-image: radial-gradient(ellipse,deeppink 100px,yellow 100px,lime 100%)
+}
+.box6{
+    height: 250px;
+    background-image:repeating-radial-gradient(circle,deeppink 10%,yellow 20% ,lime 30%)
+}
+.box7{
+    height: 250px;
+    background-image:repeating-radial-gradient(ellipse,deeppink 10%,yellow 20% ,lime 30%)
+}
+.box8{
+    height: 250px;
+    background-image:repeating-radial-gradient(ellipse at 85px 85px,deeppink 10%,yellow 20% ,lime 30%)
+}
+.box9{
+    height: 250px;
+    background-image:repeating-radial-gradient(ellipse at top right,deeppink 20px,yellow 50px ,lime 80px)
+}
