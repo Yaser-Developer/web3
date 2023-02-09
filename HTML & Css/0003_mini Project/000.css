@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: 'Updck';
+    src: url('Updock-Regular.woff2') format('woff2');
+}
+*{
+    margin: 0;
+padding: 0;
+    font-family: Updck;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+
+}
+.header{
+    font-size: 100px;
+    text-align: center;
+    background-color: yellow;
+    border-bottom: 5px dotted black;
+    font-weight: bolder;
+}
+.box{
+    width: 100%;
+    background-color: orangered;
+    position: sticky;
+    top: 0px;
+    
+    font-size: 85px;
+    text-align: center;
+    border-bottom: 2px dashed black;
+  
+   
+}
+li{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    box-shadow: 20px 20px 500px 1px red;
+    margin: 150px 50%;
+    
+  
+}
+
+img{
+    width:100%;
+}
+h1{
+    background-color: yellow;
+    width: 250px;
+   margin: auto;
+    border-radius: 15px;
+}
+p{
+    padding: 10px;
+    font-size: 35px;
+}
+b{
+    font-size: 55px;
+}
