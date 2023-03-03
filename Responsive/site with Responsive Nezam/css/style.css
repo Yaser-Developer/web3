@@ -1,0 +1,293 @@
+body{
+    font-size: 18px;
+    background-color: #afafaf;
+}
+
+
+.orange{background-color: orange;}
+.red{background-color: red;}
+.violet{background-color: violet;}
+.green{background-color: green;}
+.black{background-color: black;}
+.blue{background-color: blue;}
+.gray{background-color: #f1f1f1}
+.yellow{background-color: yellow;}
+
+
+.p-right15{padding-right: 15px;}
+
+.p-top10{padding-top: 10px;}
+.p-top20{padding-top: 20px;}
+.p-top30{padding-top: 30px;}
+.p-top40{padding-top: 40px;}
+.p-top50{padding-top: 50px;}
+.p-top60{padding-top: 60px;}
+.p-top70{padding-top: 70px;}
+
+.p-bot10{padding-bottom: 10px;}
+.p-bot20{padding-bottom: 20px;}
+.p-bot30{padding-bottom: 30px;}
+.p-bot40{padding-bottom: 40px;}
+.p-bot50{padding-bottom: 50px;}
+.p-bot60{padding-bottom: 60px;}
+.p-bot70{padding-bottom: 70px;}
+
+
+.menu{
+    background-color: #005ca5;
+    color: white;
+    font-size: 9px;
+    padding: 10px 0px;
+    height: 50px;
+  
+}
+.menuu{
+    margin: 0 10px;
+    text-align: center;
+    
+}
+.menuu a{
+    color: white;
+    text-decoration: none;
+}
+.menuu2{
+    margin:0 10px;
+}
+
+
+.pic{
+    background-image: url("https://www.tceo.ir/?NEWSPicture/259118/1920/700/Fix");
+    height:400px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: white;
+    height: auto;
+    max-width:  100%;
+    box-sizing: border-box;
+
+   
+
+    
+}
+.pic p{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 350px
+   
+}
+
+.menu5{
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+ 
+.menu6{
+    text-align: center;
+    
+}
+.contmenu6{
+    background-image: url(https://www.tceo.ir/Theme/tceo-mordad-98/img/tceo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-color: rgba(0, 0, 0, 0.83);
+
+}
+.colRow1{
+    margin: 20px auto;
+}
+.moarrefiRaiis{
+   margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #948e8e;
+   
+}
+.moarrefiRaiis img{
+    border-radius: 50%;
+    width: 50%;
+    margin: 10px 60px;
+}
+.moarrefiRaiis a{
+    text-decoration: none;
+    color: royalblue;
+   
+}
+.raiisMenu{
+    text-align: center;
+   
+}
+.raiisMenu a{
+    display: block;
+     text-decoration: none;
+    background-color: darkorange;
+    margin-bottom: 5px;
+    color: white;
+    padding-bottom: 10px
+}
+
+.colRow{
+    margin: 0 auto;
+    
+}
+.c3R1pic{
+    border: 1px solid #f1f1f1;
+    width: 233px;
+    margin: 15px ;
+   
+   
+   
+   
+   
+}
+.yek{
+    position: relative;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:#f1f1f1;
+    
+   
+    
+    
+}
+.do{
+    position: absolute;
+   bottom: 5px;
+    left: 4px;
+    width: 95%;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+    background-color: blue;
+
+    
+    
+}
+.do:hover{
+    height: 95%;
+    padding: 60px;
+    color: black;
+    background-color: darkorange;
+   
+}
+
+
+
+.menu7{
+    font-size: 15px;
+    position: relative;
+    padding:0px 80px 70px 0;
+    margin: 0 auto;
+    text-align: center;
+       
+}
+.menu7 div{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin: 10px 10px;
+  
+}
+.menu7 a{
+   width:100%;
+    height: 100%;
+     text-decoration: none;
+    display: inline-block;
+   border: 2px solid white;
+    background-color:darkorange ;
+    color: white;
+    margin:  25px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    padding: 80px 10px 0 10px;
+  
+  
+}
+.menu7 a:hover{
+    background-color: blue;
+    margin-bottom:  100px;
+   
+
+}
+
+/*
+.menu7 a{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    text-decoration: none;
+    background-color:darkorange;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 90px 10px;
+    margin:0 40px;
+}
+*/
+
+
+
+
+.menu8{
+   
+    background-image: url(https://www.tceo.ir/Theme/tceo-mordad-98/img/tceo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(25, 25, 24, .98);
+    color: darkorange;
+   
+    
+}
+.menu8 h2{
+    color: white;
+    padding: 50px;
+    
+    
+}
+.row1menu8{
+    text-align: center;
+    
+}
+.picMenu8 img{
+    border: 3px solid black;
+    transition: all 1s;
+    
+}
+.row1menu8 h3{
+    margin: 10px;
+}
+.picMenu8 img:hover{
+    transform: rotate(2turn);
+    
+    
+    
+}
+
+.menu8 ul{
+    margin-bottom: 50px;
+}
+.menu8 li{
+    text-align: right;
+    margin: 10px 15px;
+}
+.menu8 ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+/*
+
+
+https://www.tceo.ir/?NEWSPicture/259828/1920/700/Fix
+
+https://www.tceo.ir/?NEWSPicture/259118/1920/700/Fix
