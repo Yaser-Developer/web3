@@ -1,0 +1,71 @@
+@font-face{ 
+    font-family:  "BYekan+" ;
+    src: url("../fonts/BYekan+.ttf");
+        
+}
+@font-face{ 
+    font-family:  "danstevis" ;
+    src: url("../fonts/danstevis.otf");
+        
+}
+body{
+    font-family: "BYekan+" ,"danstevis";
+    font-size: 18px;
+}
+
+/* colores */
+
+.orange{background-color: orange;}
+.blue{background-color: lightblue;}
+.violet{background-color: violet;}
+.green{background-color: green;}
+.red{background-color: red;}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 40px 25px;
+}
+.image{
+    
+    background-image: url(https://next1code.ir/wp-content/uploads/2020/11/page-bg.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #fda1a1;
+    text-align: center;
+    color: #fff;
+}
+h1{
+    font-size: 30px;
+    color: orange;
+    text-shadow: 10px 2px 5px red;
+}
+h2{
+    font-size: 35px
+}
+i{
+    font-size: 200px;
+}
+.row1 div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.row2 div{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.footer{
+    background-color: #54595F;
+}
+
+
+
+
